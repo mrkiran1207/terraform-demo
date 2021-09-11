@@ -6,7 +6,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "resource_group_terraform" {
   name     = "terraform_resource_group"
-  location = "West Europe"
+  location = "East US"
 }
 
 resource "azurerm_app_service_plan" "app_service_plan_terraform" {
